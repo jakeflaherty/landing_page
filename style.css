@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 85px;
+    border-radius: 45%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list-right {
+    display: flex;
+    list-style: none;
+    gap: 65px;
+    margin: 0;
+    padding: 0;
+}
