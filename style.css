@@ -1,5 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER BOX */
+header {
+    background-color: #5e9e31;
+    padding: 1em 10em;
+}
+
+/* NAVIGATION */
 #logo {
     width: 10em;
     height: auto;
     border-radius: 75px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+.secondary, a:link {
+    font-size: 18px;
+    color: rgb(252, 188, 49);
+    text-decoration: none;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 7em 0;
+}
+
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.welcome button {
+    border: none;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
 }
